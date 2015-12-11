@@ -720,10 +720,10 @@ namespace OpenLiveWriter.BlogClient.Detection
 
         public bool AuthenticationErrorOccurred
         {
-            get { return _authenticationErrorOccured; }
-            set { _authenticationErrorOccured = value; }
+            get { return _authenticationErrorOccurred; }
+            set { _authenticationErrorOccurred = value; }
         }
-        private bool _authenticationErrorOccured = false;
+        private bool _authenticationErrorOccurred = false;
 
         public bool TemplateDownloadFailed
         {
