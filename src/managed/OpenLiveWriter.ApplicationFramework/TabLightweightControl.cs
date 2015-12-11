@@ -302,7 +302,7 @@ namespace OpenLiveWriter.ApplicationFramework
         [
             Category("Appearance"),
                 DefaultValue(false),
-                Description("Specifies whether whether whether the tab selecter area is scrollable.")
+                Description("Specifies whether whether whether the tab selector area is scrollable.")
         ]
         public bool ScrollableTabSelectorArea
         {
@@ -330,7 +330,7 @@ namespace OpenLiveWriter.ApplicationFramework
         [
             Category("Appearance"),
                 DefaultValue(false),
-                Description("Specifies whether whether whether the tab selecter area is scrollable.")
+                Description("Specifies whether whether whether the tab selector area is scrollable.")
         ]
         public bool AllowTabClipping
         {
