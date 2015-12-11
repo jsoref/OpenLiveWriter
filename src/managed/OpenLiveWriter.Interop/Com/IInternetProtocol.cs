@@ -370,7 +370,7 @@ namespace OpenLiveWriter.Interop.Com
         [PreserveSig]
         int CombineUrl(
             [In, MarshalAs(UnmanagedType.LPWStr)] string pwzBaseUrl,
-            [In, MarshalAs(UnmanagedType.LPWStr)] string pwzRelatuveUrl,
+            [In, MarshalAs(UnmanagedType.LPWStr)] string pwzRelativeUrl,
             [In] uint dwCombineFlags,
             [Out, MarshalAs(UnmanagedType.LPWStr)] string pwzResult,
             [In] uint cchResult,
