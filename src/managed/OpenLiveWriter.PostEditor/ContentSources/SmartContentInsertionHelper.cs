@@ -155,10 +155,10 @@ namespace OpenLiveWriter.PostEditor.ContentSources
                 MarkupContext mc = htmlRange.End.Right(false);
                 MarkupRange range = MarkupServices.CreateMarkupRange(mc.Element, false);
 
-                IHTMLElement[] childern = range.GetTopLevelElements(MarkupRange.FilterNone);
+                IHTMLElement[] children = range.GetTopLevelElements(MarkupRange.FilterNone);
 
                 int maxWidth = 0;
-                foreach (IHTMLElement child in childern)
+                foreach (IHTMLElement child in children)
                     maxWidth = Math.Max(maxWidth, child.offsetWidth);
 
                 if (maxWidth != 0)
