@@ -214,7 +214,7 @@ namespace OpenLiveWriter.PostEditor
                     }
                     catch (NotImplementedException ex)
                     {
-                        ContentSourceManager.DisplayContentRetreivalError(FindForm(), ex, selectedContentSource);
+                        ContentSourceManager.DisplayContentRetrievalError(FindForm(), ex, selectedContentSource);
                     }
                     catch (Exception exception)
                     {
