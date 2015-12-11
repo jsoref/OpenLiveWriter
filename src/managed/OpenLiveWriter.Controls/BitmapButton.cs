@@ -126,13 +126,13 @@ namespace OpenLiveWriter.Controls
         private IContainer components;
 
         /// <summary>
-        /// A value which indicates how the BitmapButton should automcatically determine its
+        /// A value which indicates how the BitmapButton should automatically determine its
         /// width.
         /// </summary>
         private bool autoSizeWidth;
 
         /// <summary>
-        /// A value which indicates how the BitmapButton should automcatically determine its
+        /// A value which indicates how the BitmapButton should automatically determine its
         /// height.
         /// </summary>
         private bool autoSizeHeight;
@@ -298,7 +298,7 @@ namespace OpenLiveWriter.Controls
         #region Public Properties
 
         /// <summary>
-        /// Gets or sets a value which indicates whether the BitmapButton should automcatically
+        /// Gets or sets a value which indicates whether the BitmapButton should automatically
         /// determine its size.
         /// </summary>
         [
@@ -325,7 +325,7 @@ namespace OpenLiveWriter.Controls
         }
 
         /// <summary>
-        /// Gets or sets a value which indicates whether the BitmapButton should automcatically
+        /// Gets or sets a value which indicates whether the BitmapButton should automatically
         /// determine its size.
         /// </summary>
         [
