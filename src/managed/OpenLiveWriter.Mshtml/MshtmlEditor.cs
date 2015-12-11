@@ -901,7 +901,7 @@ editingOption.Key, editingOption.Value, ex.ToString()));
             //	If the key was handled, return S_OK.  Otherwise, return S_FALSE.
             if (keyEventArgs.Handled)
             {
-                //translated accellerator
+                //translated accelerator
                 return HRESULT.S_OK;
             }
             else
