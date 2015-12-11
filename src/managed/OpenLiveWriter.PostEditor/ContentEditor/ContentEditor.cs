@@ -2037,7 +2037,7 @@ namespace OpenLiveWriter.PostEditor
             _normalHtmlContentEditor.SetEditable(editMode);
             SetCurrentEditor();
 
-            // Set the orginal dirty state back
+            // Set the original dirty state back
             _currentEditor.IsDirty = isDirty;
 
             // Let everyone the editor just changed (tabs will update)
