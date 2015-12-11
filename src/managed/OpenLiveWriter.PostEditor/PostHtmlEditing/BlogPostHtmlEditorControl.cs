@@ -620,7 +620,7 @@ namespace OpenLiveWriter.PostEditor.PostHtmlEditing
                 {
                     // we return true on exception here because we don't want to halt publishing
                     // due to an unexpected error
-                    Trace.Fail("Unexpected exception attemptign to discover tags in document: " + ex.ToString());
+                    Trace.Fail("Unexpected exception attempting to discover tags in document: " + ex.ToString());
                     return true;
                 }
             }
