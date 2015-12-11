@@ -305,7 +305,7 @@ namespace OpenLiveWriter.Controls
             Category("Appearance"),
                 Localizable(false),
                 DefaultValue(false),
-                Description("Specifies whether the BitmapButton should automcatically determine its width.")
+                Description("Specifies whether the BitmapButton should automatically determine its width.")
         ]
         public bool AutoSizeWidth
         {
@@ -332,7 +332,7 @@ namespace OpenLiveWriter.Controls
             Category("Appearance"),
                 Localizable(false),
                 DefaultValue(false),
-                Description("Specifies whether the BitmapButton should automcatically determine its height.")
+                Description("Specifies whether the BitmapButton should automatically determine its height.")
         ]
         public bool AutoSizeHeight
         {
