@@ -697,7 +697,7 @@ namespace OpenLiveWriter.PostEditor
         /// or to a new editor form depending upon the user's preferences and
         /// the current editing state
         /// </summary>
-        /// <param name="editingContext">editing conext</param>
+        /// <param name="editingContext">editing context</param>
         /// <param name="isNewPost">if set to <c>true</c> [is new post].</param>
         private void DispatchEditPost(IBlogPostEditingContext editingContext, bool isNewPost)
         {
