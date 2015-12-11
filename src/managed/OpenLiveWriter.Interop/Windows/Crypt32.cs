@@ -59,7 +59,7 @@ namespace OpenLiveWriter.Interop.Windows
                         dwFlags,            // flags
                         ref dataOut))
                     {
-                        throw new Win32Exception(Marshal.GetLastWin32Error(), "Error encryting " + description);
+                        throw new Win32Exception(Marshal.GetLastWin32Error(), "Error encrypting " + description);
                     }
                 }
 
@@ -107,13 +107,13 @@ namespace OpenLiveWriter.Interop.Windows
                 fixed (byte* data = encryptedStr)
                 {
                     // encrypted data
-                    DATA_BLOB encrtypedData = new DATA_BLOB();
-                    encrtypedData.cbData = (uint)encryptedStr.Length;
-                    encrtypedData.pbData = new IntPtr(data);
+                    DATA_BLOB encryptedData = new DATA_BLOB();
+                    encryptedData.cbData = (uint)encryptedStr.Length;
+                    encryptedData.pbData = new IntPtr(data);
 
                     // unencrypt
                     if (!CryptUnprotectData(
-                        ref encrtypedData,
+                        ref encryptedData,
                         out dataDescription,
                         IntPtr.Zero,
                         IntPtr.Zero,
@@ -172,11 +172,11 @@ namespace OpenLiveWriter.Interop.Windows
             string data = "TestData";
 
             // encrypt data
-            byte[] encrtypedData = CryptProtectString(data, description, 0, null);
+            byte[] encryptedData = CryptProtectString(data, description, 0, null);
 
             // decrypt data
             string extractedDescription;
-            string decryptedData = CryptUnprotectString(encrtypedData, out extractedDescription, 0, null);
+            string decryptedData = CryptUnprotectString(encryptedData, out extractedDescription, 0, null);
 
             // verify results
             Debug.Assert(description == extractedDescription);
