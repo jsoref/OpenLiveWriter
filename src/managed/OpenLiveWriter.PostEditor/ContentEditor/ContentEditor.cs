@@ -2752,9 +2752,9 @@ namespace OpenLiveWriter.PostEditor
             return null;
         }
 
-        IExtensionData[] IContentSourceSite.UpdateContent(IExtensionData[] extensionDataListOrginal)
+        IExtensionData[] IContentSourceSite.UpdateContent(IExtensionData[] extensionDataListOriginal)
         {
-            IExtensionData[] extensionDataList = (IExtensionData[])extensionDataListOrginal.Clone();
+            IExtensionData[] extensionDataList = (IExtensionData[])extensionDataListOriginal.Clone();
             // Find all the smart content in the list, and tell them to update.
             IHTMLElement2 postBodyElement = (IHTMLElement2)_normalHtmlContentEditor.PostBodyElement;
             if (postBodyElement != null)
