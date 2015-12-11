@@ -271,7 +271,7 @@ namespace OpenLiveWriter.PostEditor
         void Shutdown();
         
         /// <summary>
-        /// Preloads some of the costly work assoicated with creating a ContentEditor
+        /// Preloads some of the costly work associated with creating a ContentEditor
         /// </summary>
         void DoPreloadWork();
     }
