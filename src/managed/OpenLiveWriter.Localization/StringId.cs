@@ -4614,7 +4614,7 @@ namespace OpenLiveWriter.Localization
         /// <summary>
         /// The error occurred for the following reason:
         /// </summary>
-        TheErrorOccuredBecause,
+        TheErrorOccurredBecause,
         /// <summary>
         /// &Tilt:
         /// </summary>

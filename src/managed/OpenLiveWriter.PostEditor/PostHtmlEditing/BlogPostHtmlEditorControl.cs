@@ -2152,7 +2152,7 @@ namespace OpenLiveWriter.PostEditor.PostHtmlEditing
 
             if (!_damageHandlerInstalled)
             {
-                DamageOccured += HandleSpellingDamage;
+                DamageOccurred += HandleSpellingDamage;
                 _damageHandlerInstalled = true;
             }
 
