@@ -648,7 +648,7 @@ namespace OpenLiveWriter.HtmlEditor
         {
             get
             {
-                // not suppported
+                // not supported
                 return false;
             }
         }
@@ -710,7 +710,7 @@ namespace OpenLiveWriter.HtmlEditor
         {
             get
             {
-                //not suported
+                //not supported
                 return false;
             }
         }
