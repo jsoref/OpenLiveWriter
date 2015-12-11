@@ -106,7 +106,7 @@ namespace OpenLiveWriter.SpellChecker
             completed = false;
             wordRangeHighlightPending = false;
 
-            // enter the spell-checking loop (if there are no mispelled words
+            // enter the spell-checking loop (if there are no misspelled words
             // then the form will never show)
             ContinueSpellCheck();
         }
