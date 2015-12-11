@@ -717,7 +717,7 @@ namespace OpenLiveWriter.HtmlEditor
 
         public void Redo()
         {
-            //not impelemented;
+            //not implemented;
         }
 
         public bool CanCut
