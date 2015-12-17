@@ -100,8 +100,8 @@ namespace OpenLiveWriter.CoreServices
             html = Regex.Replace(html, pattern4, "Url(" + newUrl + ")", RegexOptions.IgnoreCase);
 #endif
 
-            // When an absolute path doesn't end with a file or a slash (i.e. http://www.realultimatepower.net)
-            // converting it to a Uri automatically adds the trailing slash (i.e. http://www.realtultimatepower.net).
+            // When an absolute path doesn't end with a file or a slash (i.e. http://www.example.net)
+            // converting it to a Uri automatically adds the trailing slash (i.e. http://www.example.net/).
             // When we fix up this escaping, we need to account for the fact that the source may lack the trailing
             // slash, but should still be replaced with the new url.  This is hacked in below.
             if (url.EndsWith("/", StringComparison.OrdinalIgnoreCase))
